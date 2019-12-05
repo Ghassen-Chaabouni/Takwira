@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sup.Takwira">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/takwira"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.sup.Takwira.chat"
+            android:label="Say Hi!"></activity>
+        <activity
+            android:name="com.sup.Takwira.ForgetPassword"
+            android:parentActivityName="com.sup.Takwira.LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+        <activity
+            android:name="com.sup.Takwira.ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName="com.sup.Takwira.Main7Activity" />
+        <activity
+            android:name="com.sup.Takwira.Main6Activity"
+            android:parentActivityName="com.sup.Takwira.Main5Activity" />
+        <activity
+            android:name="com.sup.Takwira.Main5Activity"
+            android:label="Reservations"
+            android:parentActivityName="com.sup.Takwira.Main7Activity" />
+        <activity
+            android:name="com.sup.Takwira.Main4Activity"
+            android:label="Home"
+            android:parentActivityName="com.sup.Takwira.Main7Activity" />
+        <activity
+            android:name="com.sup.Takwira.Main7Activity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.sup.Takwira.LoginActivity"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sup.Takwira.SignupActivity"
+            android:parentActivityName="com.sup.Takwira.LoginActivity"
+            android:theme="@style/AppTheme.Dark" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
