@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="primary">#002a42</color>
+  <color name="primary_dark">#002a42</color>
+  <color name="primary_darker">#002a42</color>
+  <color name="accent">#FFFFFF</color>
+  <color name="bar">#0e1235</color>
+
+  <color name="black">#90000000</color>
+  <color name="jet">#222222</color>
+  <color name="oil">#333333</color>
+  <color name="monsoon">#777777</color>
+  <color name="jumbo">#888888</color>
+  <color name="aluminum">#999999</color>
+  <color name="base">#AAAAAA</color>
+  <color name="iron">#CCCCCC</color>
+  <color name="white">#FFFFFF</color>
+
+  <color name="profilePrimaryDark">#FF3B30</color>
+  <color name="profileAccentColor">#F7F7F7</color>
+  <color name="whiteTextColor">#fff</color>
+  <color name="profileBackground">#fff</color>
+  <color name="blackTextColor">#000</color>
+  <color name="profileEditTextColor">#707070</color>
+</resources>
